@@ -1,0 +1,77 @@
+body {
+    font-family: 'Sans-serif', Arial;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header h1 {
+    font-family: 'Sans-serif', Arial;
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 0;
+}
+
+.tamagotchi-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: transparent;
+}
+
+.tamagotchi-display img {
+    width: 200px; /* Adjust size as needed */
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+.action-buttons button {
+    border: none;
+    background: none;
+    font-family: 'Sans-serif', Arial;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.action-buttons button img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.secondary-actions-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.secondary-actions-menu .menu-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    display: none; /* Show when the menu is activated */
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
